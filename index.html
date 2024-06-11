@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto x-devs - Semana do Zero ao Programador Contratado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link href="https://db.onlinewebfonts.com/c/40f46a2006a599684b999288e839348e?family=Modesto+Poster+W05+Regular" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1>cólera da vingança</h1>
+  </header>
+  <main class="personagens-slider">
+
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+      <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+    </button>
+
+    <ul class="lista-personagens">
+      <li class="cartao selecionado fundo-1">
+        <h2 class="nome">Carlos Germano</h2>
+        <img class="imagem-personagem" src="./src/imagens/carlos.jpeg" alt="Carlos Germano">
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Carlos é um paladino do Juramento do Mar Aberto, conhecido por sua bravura em inúmeras batalhas, especialmente na Guerra Abissal. Pai dedicado de duas filhas, Cad e Sarah, ele se sente responsável por proteger todo o seu grupo, garantindo que todos permaneçam seguros durante suas missões.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2">
+          <h2 class="nome">Cadrielfin</h2>
+
+          <img class="imagem-personagem" src="src/imagens/cad.jpeg" alt="Cadrielfin" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Cad, uma elfa ladina, vive se metendo em encrencas devido à sua avareza. Raramente demonstra fraqueza e é a campeã da patrona Silath, que a salvou para evitar que ela perdesse o controle para um Devorador de Mentes.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3">
+          <h2 class="nome">Skool Elandryel</h2>
+
+          <img class="imagem-personagem" src="src/imagens/skoll.jpeg" alt="Skool Elandryel" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Skool é um monge que aprendeu suas técnicas de luta no monastério Potentia Verbi, e lá desenvolveu seu estilo de luta bêbado. Por muitos anos viajou por diferentes lugares para procurar sua irmã enquanto trabalhava para a Rainha dos Elfos. Por fim, após sua irmã ser morta pelo dragão branco Turin, ele focou toda sua energia e força de vontade para cumprir a ordem da rainha.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-4">
+          <h2 class="nome">Soveliss</h2>
+
+          <img class="imagem-personagem" src="src/imagens/sov.jpeg" alt="Soveliss" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Sov, um elfo negro guerreiro, é o membro mais vingativo e sombrio do grupo. Após perder sua namorada em um ataque de um dragão de mithril e aço, ele se tornou implacável, tomando medidas extremas para vingar sua amada e derrotar seu maior inimigo, o Doppelganger.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-5">
+          <h2 class="nome">Alba</h2>
+
+          <img class="imagem-personagem" src="src/imagens/alba.png" alt="Alba" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Alba é um humano mago com poderes que ele mesmo não compreende completamente. Ele se ofereceu ao patrono Aiacos para salvar Cad e fugiu de casa para se aventurar com o grupo, escondendo sua partida de sua mãe.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-6">
+          <h2 class="nome">Thorja</h2>
+
+          <img class="imagem-personagem" src="./src/imagens/thorja.jpeg" alt="Thorja" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Thorja, uma anã clériga, foi salva pelo grupo e acabou se juntando a eles. Ela vê Sov como uma figura paterna e tem grande afeição por Alba. Além de suas habilidades de clériga, trabalha como ferreira.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-7">
+        <h2 class="nome">Sarah</h2>
+
+        <img class="imagem-personagem" src="./src/imagens/sarah.png" alt="Sarah" />
+
+      <div class="descricao">
+        <h3 class="titulo">Descrição</h3>
+        <p class="texto">
+          Sarah, uma humana clériga, é a filha perdida de Carlos. Após encontrar seu pai, decidiu nunca mais se afastar dele. Especialista em medicina, ela salvou o grupo de situações de morte inúmeras vezes.
+        </p>
+      </div>
+    </li>
+
+    <li class="cartao fundo-8">
+      <h2 class="nome">Dalia</h2>
+
+      <img class="imagem-personagem" src="./src/imagens/dalia.png" alt="Dalia" />
+
+    <div class="descricao">
+      <h3 class="titulo">Descrição</h3>
+      <p class="texto">
+        Dalia, uma guerreira humana forte, perdeu seu esposo muito cedo. Mãe de Alba, ela se afastou do grupo para criar seu filho e se tornou taverneira. No entanto, precisou retornar à vida de aventura para buscar Alba após sua fuga.
+      </p>
+    </div>
+  </li>
+
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+      <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+    </button>
+
+  </main>
+
+  <script src="./src/js/index.js">
+  </script>
+
+</body>
+
+</html>

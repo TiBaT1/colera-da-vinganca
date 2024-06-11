@@ -1,0 +1,145 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-image: url('../imagens/fundo-base.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.cabecalho {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.cabecalho h1 {
+  font-family: "Modesto Poster W05 Regular";
+  color: #ca0c1c;
+  -webkit-text-stroke-width: 2px;-webkit-text-stroke-color: #000000;
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.personagens-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.lista-personagens {
+  width: 330px;
+  height: 520px;
+  position: relative;
+}
+
+.btn-seta {
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-seta.btn-voltar {
+  transform: rotateY(180deg);
+}
+
+.btn-seta:hover {
+  filter: invert(1);
+}
+
+.cartao {
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartao.selecionado {
+  opacity: 1;
+  z-index: 1;
+}
+
+.cartao .imagem-personagem {
+  width: 100%;
+  max-height: 280px;
+}
+
+.cartao .nome {
+  font-family: "Modesto Poster W05 Regular";
+  background-color: rgba(179,177,185,0.7);
+  padding: 8px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.cartao .descricao {
+  background-color: rgba(255,255,255, 0.8);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cartao .descricao .titulo {
+  background-color: #333333;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.cartao .descricao .texto {
+  font-size: 14px;
+  padding: 12px;
+  text-align: justify;
+  max-height: 110px;
+  overflow-y: auto;
+}
+
+.cartao.fundo-1 {
+  background: url('../imagens/fundo-carlos.jpg') no-repeat;
+}
+
+.cartao.fundo-2 {
+  background: url('../imagens/fundo-cad.jpg') no-repeat;
+}
+
+.cartao.fundo-3 {
+  background: url('../imagens/fundo-skoll.jpg') no-repeat;
+}
+
+.cartao.fundo-4 {
+  background: url('../imagens/fundo-sov.jpg') no-repeat;
+}
+
+.cartao.fundo-5 {
+  background: url('../imagens/fundo-alba.jpg') no-repeat;
+}
+
+.cartao.fundo-6 {
+  background: url('../imagens/fundo-thorja.jpg') no-repeat;
+}
+
+.cartao.fundo-7 {
+  background: url('../imagens/fundo-sarah.jpg') no-repeat;
+}
+
+.cartao.fundo-8 {
+  background: url('../imagens/fundo-dalia.jpg') no-repeat;
+}
