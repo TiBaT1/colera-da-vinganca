@@ -11,7 +11,7 @@ btnAvancar.addEventListener("click", function() {
   esconderCartaoSelecionado()
   
   cartaoAtual++;
-  mostrarCartoes();
+  mostrarCartao();
   
 })
 
